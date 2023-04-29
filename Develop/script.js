@@ -34,7 +34,7 @@ console.log(randomFunction.number())
 console.log(randomFunction.symbol())
 
 
-//----------I only touched the above. Didn't touch the below, yet----------------
+//----------I didn't touch the middle portion----------------
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -57,30 +57,35 @@ generateBtn.addEventListener("click", writePassword);
 
 
 
-//----------didn't touch the middle portion---------
+//----------I didn't touch the middle portion---------
 
 
-const responseUpper = confirm("Would you like Uppercase");
+generateBtn.addEventListener("click", writePassword);
+
+function writePassword() {
+  
+var responseUpper = confirm("Would you like Uppercase");
 if (responseUpper) {
     console.log("Ok was pressed");
 } else {
     console.log("Cancel was pressed");
 }
-const responseLower = confirm("Would you like LowerCase");
+var responseLower = confirm("Would you like LowerCase");
 if (responseLower) {
     console.log("Ok was pressed");
 } else {
     console.log("Cancel was pressed");
 }
-const responseNumbers = confirm("Would you like Numbers");
+var responseNumbers = confirm("Would you like Numbers");
 if (responseNumbers) {
     console.log("Ok was pressed");
 } else {
     console.log("Cancel was pressed");
 }
-const responseSymbols = confirm("Would you like Symbols");
+var responseSymbols = confirm("Would you like Symbols");
 if (responseSymbols) {
     console.log("Ok was pressed");
 } else {
     console.log("Cancel was pressed");
+}
 }
