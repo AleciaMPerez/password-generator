@@ -1,3 +1,4 @@
+
 // Random object which are linked to the below functions.
 
 var randomFunction = {
@@ -6,6 +7,7 @@ var randomFunction = {
   number: randomNumber,
   symbol: randomSymbol
 }
+
 
 
 // Functions to return random outputs.
@@ -48,3 +50,37 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+
+
+
+
+
+
+//----------didn't touch the middle portion---------
+
+
+const responseUpper = confirm("Would you like Uppercase");
+if (responseUpper) {
+    console.log("Ok was pressed");
+} else {
+    console.log("Cancel was pressed");
+}
+const responseLower = confirm("Would you like LowerCase");
+if (responseLower) {
+    console.log("Ok was pressed");
+} else {
+    console.log("Cancel was pressed");
+}
+const responseNumbers = confirm("Would you like Numbers");
+if (responseNumbers) {
+    console.log("Ok was pressed");
+} else {
+    console.log("Cancel was pressed");
+}
+const responseSymbols = confirm("Would you like Symbols");
+if (responseSymbols) {
+    console.log("Ok was pressed");
+} else {
+    console.log("Cancel was pressed");
+}
