@@ -1,6 +1,6 @@
-// Random object
+// Random object which are linked to the below functions.
 
-var randomFunction= {
+var randomFunction = {
   lower: randomLower,
   upper: randomUpper,
   number: randomNumber,
@@ -25,9 +25,14 @@ function randomSymbol(){
   return String.fromCharCode(Math.floor(Math.random() *15) +33)
 }
 
+// output for password object
+console.log(randomFunction.lower())
+console.log(randomFunction.upper())
+console.log(randomFunction.number())
+console.log(randomFunction.symbol())
 
 
-
+//----------I only touched the above. Didn't touch the below, yet----------------
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
