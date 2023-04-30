@@ -7,3 +7,6 @@ String.fromCharCode explained - https://www.w3schools.com/jsref/jsref_fromcharco
 
 
 Second youtube - https://www.youtube.com/watch?v=iKo9pDKKHnc
+
+EventListener - https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+

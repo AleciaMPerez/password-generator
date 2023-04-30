@@ -10,7 +10,8 @@ var randomFunction = {
 
 
 
-// Functions to return random outputs.
+// Functions to return random outputs. "fromCharCode" means from the character code list. "Math" is static and doesn't require an object. ".floor" means rounds down. ".random" randomizes the output.
+
 function randomLower() {
   return String.fromCharCode(Math.floor(Math.random() * 26) +97)
 }
