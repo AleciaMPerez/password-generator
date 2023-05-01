@@ -18,7 +18,7 @@ function writePassword() {
 
   passwordText.value = password;
 }
-// Prompts //
+// Prompts/confirmations //
 function generatePassword() {
   var responseUpper = confirm("Would you like Uppercase");
   var chosenChars = "";
