@@ -17,7 +17,12 @@ Use the password generator by going to the site, and simply click generate passw
 
 ## Credits
 
-I used assistance from the tutor, Andres, at UNCC. Also, I found the below resources for further explaination on EventListeners.
+I used assistance from the tutor, Andres, at UNCC. I found the below resources for further explainations on EventListeners, confirmations, prompts.
 
 EventListener - https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+
+Confirmations - https://www.w3schools.com/jsref/met_win_confirm.asp
+
+Prompts - https://www.w3schools.com/js/js_popup.asp
+
 
