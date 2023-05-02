@@ -25,4 +25,5 @@ Confirmations - https://www.w3schools.com/jsref/met_win_confirm.asp
 
 Prompts - https://www.w3schools.com/js/js_popup.asp
 
+Starter code - https://github.com/coding-boot-camp/friendly-parakeet
 
